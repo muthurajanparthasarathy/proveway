@@ -1,0 +1,152 @@
+/* General body styles */
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    padding: 4% 10%;
+}
+
+/* Line with text: center-aligned with a top border */
+.line-with-text {
+    position: relative;
+    text-align: center;
+    border-top: 2px solid #c8c8c8;
+    height: 30px;
+}
+
+.line-with-text span {
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff6b82;
+}
+
+/* Product item styles */
+.item {
+    border: 1px solid #c8c8c8;
+    padding: 2rem;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.inner-item {
+    display: flex;
+    align-items: center;
+}
+
+.item b {
+    font-size: 16px;
+}
+
+.item p {
+    font-size: 14px;
+    margin: 2px;
+}
+
+.item .discount {
+    padding: 0 15px;
+    background-color: #ff6b82;
+    margin: 10px;
+    color: white;
+}
+
+.item .price {
+    text-align: right;
+    margin-left: auto;
+}
+
+.item .price span {
+    font-size: 12px;
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+/* Custom radio button styles */
+.item [type='radio'] {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    accent-color: #ff6b82;
+    appearance: none;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.item [type='radio']:checked {
+    background-color: #ff6b82;
+    border-color: white;
+    outline: 1px solid #ff6b82;
+}
+
+.item [type='radio']:focus {
+    outline: 1px solid #ff6b82;
+    border-color: white;
+}
+
+/* Order summary styles */
+.order-summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary span:first-child {
+    color: #ff6b82;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    background-color: #ff6b82;
+    text-align: center;
+    margin: 20px 0;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button span
+{
+    margin: 0 10px;
+}
+
+/* Select styles */
+select {
+    width: 80px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid #c8c8c8;
+}
+
+/* Table styles */
+table {
+    padding: 24px;
+}
+
+table thead th {
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+}
+table td {
+    font-size: 12px;
+
+}
+
+/* Selected item section */
+.selectedSection {
+    background-color: #FFF9FA;
+    border: 2px solid #ff6b82;
+}
+
+/* Hidden elements */
+.d-none {
+    display: none;
+}
